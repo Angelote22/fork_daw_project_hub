@@ -10,4 +10,8 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
     margin: 5%;
+}.parrafos:first-child{
+    border: 1px, solid green;
+}.parrafos:last-child{
+    border: 1px, solid, blue;
 }
