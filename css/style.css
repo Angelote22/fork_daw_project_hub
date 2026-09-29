@@ -5,3 +5,9 @@ body{
     margin-left: 2vw;
     margin-right: 2vw;
 }
+
+.parrafos{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    margin: 5%;
+}
