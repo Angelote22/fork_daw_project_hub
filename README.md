@@ -32,3 +32,4 @@ pasos:
 3. Ahora, una vez hemos publicado la rama al repositorio remoto, veremos que la rama
    aparece en la sección _"branches"_ de nuestro repo de GitHub. Este aparece justo
    debajo del nombre del proyecto.
+# Modificación del README.md desde la interfaz web de HitHub.
