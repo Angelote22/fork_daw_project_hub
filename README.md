@@ -32,6 +32,7 @@ pasos:
 3. Ahora, una vez hemos publicado la rama al repositorio remoto, veremos que la rama
    aparece en la sección _"branches"_ de nuestro repo de GitHub. Este aparece justo
    debajo del nombre del proyecto.
+
 # Modificación del README.md desde la interfaz web de HitHub.
 
 # Diferencias entre Fetch y Pull
@@ -62,3 +63,59 @@ La relación es que **`git pull` es la suma automática de dos pasos**:
 Cuando hacemos `git fetch`, realizamos solo la primera parte (descargar).La "integración
 posterior" ocurre cuando decidimos ejecutar manualmente un `git merge` para aplicar los
 cambios descargados. `git pull` simplemente hace ambas tareas en un solo paso.
+
+# Forks y colaboración
+
+## 1. ¿Qué es un fork en GitHub?
+
+Un `Fork` de GitHub es una herramienta que nos permite modificar el repositorio de
+alguien, en el que no tenemos permiso de edición. Tambien se puede usar para modificar
+de manera local el contenido del repositorio, sin cambiar nada en el mismo. Es como hacer
+una copia local para modificar a tu antojo. En caso de que hagamos una buena modificación
+del repo, podemos enviar la contribución al dueño del repositorio, y este podrá aceptarla
+o negarla.
+
+## 2. ¿En qué se diferencia un fork de una rama?
+
+El `Fork` de un repositorio, descarga todas las ramas del mismo para poder trabajar con
+el proyecto entero.
+Por otro lado, una `rama` incluye solo las modificaciones realizadas en la misma, sin
+posibilidad de hacer cambios en el proyecto general por tu cuenta.
+
+## 3. ¿En qué cuenta se almacena un fork?
+
+Un `Fork` se almacena en la cuenta de GitHub del que lo hace.
+
+## 4. ¿Cuándo resulta útil trabajar mediante un fork?
+
+Trabajar mediante un `fork` resulta útil para contribuir a un proyecto completo por
+cuenta propia, sin necesidad de ser colaborador activo del repositorio.
+
+## 5. ¿Qué relación existe entre el repositorio original y el fork?
+
+La relación entre el **repositorio original** y el **fork** se centra en la versión de la
+que sale el fork.
+
+## 6. ¿Qué es el repositorio upstream?
+
+El repositorio `upstream` sirve para descargar los últimos cambios del repositorio.
+Es la versión del repositorio original modificada por la comunidad.
+
+## 7. ¿Qué diferencia existe entre origin y upstream?
+
+`origin` es la versión 'oficial' del repositorio, donde tú modificas y subes los cambios
+realizados.
+Por otro lado, `upstream` recopila los cambios de la comunidad realizados sobre el repo
+original.
+
+## 8. ¿Cómo se propone que un cambio del fork llegue al repositorio original?
+
+Para proponer subir un cambio al repo original, se realiza un `Pull Request`.
+
+## 9. ¿Quién decide si se acepta la propuesta?
+
+La persona que decide aceptar la propuesta debe ser el **dueño** del repositorio.
+
+## 10. ¿Puede seguir evolucionando el repositorio original mientras existe el fork?
+
+Sí.
